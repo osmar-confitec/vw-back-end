@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{61B1DEAC-094F-4FBD-9FB0-D56BC3B248FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{2EB8BA47-10E9-4B90-A9F4-0E5324B4AE76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{6A123467-1847-4158-82A4-A41263CCF927}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{64BE4566-75BB-4636-B0A9-EEA07D95D290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{C1AC924B-CEC9-477F-8783-A15235355454}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolksCalls.Application", "src\VolksCalls.Application\VolksCalls.Application.csproj", "{407279A7-4736-453C-A111-86CF4F6F44CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolksCalls.Services.Api", "src\VolksCalls.Services.Api\VolksCalls.Services.Api.csproj", "{8C9674A8-D07F-42ED-AC8F-11468EE06737}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolksCalls.Domain", "src\VolksCalls.Domain\VolksCalls.Domain.csproj", "{20850779-2DF6-4BF7-BB40-08EE2D5F67ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{46788B24-129E-41D5-8868-E8899DF68BD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{4010C206-1643-49D8-96F8-1E98A707F381}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{6E067AE8-D208-4712-B5ED-026EC8594D32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolksCalls.UnitTests", "tests\VolksCalls.UnitTests\VolksCalls.UnitTests.csproj", "{8878FF02-F0D0-4A0A-9F1B-A62880FD639C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolksCalls.Infra.Data", "src\VolksCalls.Infra.Data\VolksCalls.Infra.Data.csproj", "{86386561-002C-4DB8-A6DE-C44D66F3AF42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolksCalls.Infra.CrossCutting", "src\VolksCalls.Infra.CrossCutting\VolksCalls.Infra.CrossCutting.csproj", "{A14CB7A6-1014-4C48-9F6C-F8A71D242B97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolksCalls.Infra.CrossCutting.Ioc", "src\VolksCalls.Infra.CrossCutting.Ioc\VolksCalls.Infra.CrossCutting.Ioc.csproj", "{3B4AB53D-DF16-40F5-B6C9-511D1F7B471E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{407279A7-4736-453C-A111-86CF4F6F44CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407279A7-4736-453C-A111-86CF4F6F44CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407279A7-4736-453C-A111-86CF4F6F44CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407279A7-4736-453C-A111-86CF4F6F44CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9674A8-D07F-42ED-AC8F-11468EE06737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9674A8-D07F-42ED-AC8F-11468EE06737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9674A8-D07F-42ED-AC8F-11468EE06737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9674A8-D07F-42ED-AC8F-11468EE06737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20850779-2DF6-4BF7-BB40-08EE2D5F67ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20850779-2DF6-4BF7-BB40-08EE2D5F67ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20850779-2DF6-4BF7-BB40-08EE2D5F67ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20850779-2DF6-4BF7-BB40-08EE2D5F67ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8878FF02-F0D0-4A0A-9F1B-A62880FD639C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8878FF02-F0D0-4A0A-9F1B-A62880FD639C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8878FF02-F0D0-4A0A-9F1B-A62880FD639C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8878FF02-F0D0-4A0A-9F1B-A62880FD639C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86386561-002C-4DB8-A6DE-C44D66F3AF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86386561-002C-4DB8-A6DE-C44D66F3AF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86386561-002C-4DB8-A6DE-C44D66F3AF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86386561-002C-4DB8-A6DE-C44D66F3AF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14CB7A6-1014-4C48-9F6C-F8A71D242B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14CB7A6-1014-4C48-9F6C-F8A71D242B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14CB7A6-1014-4C48-9F6C-F8A71D242B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14CB7A6-1014-4C48-9F6C-F8A71D242B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4AB53D-DF16-40F5-B6C9-511D1F7B471E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4AB53D-DF16-40F5-B6C9-511D1F7B471E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4AB53D-DF16-40F5-B6C9-511D1F7B471E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4AB53D-DF16-40F5-B6C9-511D1F7B471E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{407279A7-4736-453C-A111-86CF4F6F44CD} = {6A123467-1847-4158-82A4-A41263CCF927}
+		{8C9674A8-D07F-42ED-AC8F-11468EE06737} = {2EB8BA47-10E9-4B90-A9F4-0E5324B4AE76}
+		{20850779-2DF6-4BF7-BB40-08EE2D5F67ED} = {64BE4566-75BB-4636-B0A9-EEA07D95D290}
+		{4010C206-1643-49D8-96F8-1E98A707F381} = {C1AC924B-CEC9-477F-8783-A15235355454}
+		{6E067AE8-D208-4712-B5ED-026EC8594D32} = {C1AC924B-CEC9-477F-8783-A15235355454}
+		{8878FF02-F0D0-4A0A-9F1B-A62880FD639C} = {46788B24-129E-41D5-8868-E8899DF68BD4}
+		{86386561-002C-4DB8-A6DE-C44D66F3AF42} = {4010C206-1643-49D8-96F8-1E98A707F381}
+		{A14CB7A6-1014-4C48-9F6C-F8A71D242B97} = {6E067AE8-D208-4712-B5ED-026EC8594D32}
+		{3B4AB53D-DF16-40F5-B6C9-511D1F7B471E} = {6E067AE8-D208-4712-B5ED-026EC8594D32}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {401E6A80-3F75-4963-ABD3-F1A203FA58E2}
+	EndGlobalSection
+EndGlobal

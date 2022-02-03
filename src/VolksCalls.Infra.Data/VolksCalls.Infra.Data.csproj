@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210625124420_modules-table.cs" />
+    <Compile Remove="Migrations\20210625124420_modules-table.Designer.cs" />
+    <Compile Remove="Migrations\20210629151158_ManagedBy.cs" />
+    <Compile Remove="Migrations\20210629151158_ManagedBy.Designer.cs" />
+    <Compile Remove="Migrations\20210806201149_Forms-Send-Calls.cs" />
+    <Compile Remove="Migrations\20210806201149_Forms-Send-Calls.Designer.cs" />
+    <Compile Remove="Migrations\20210819001202_CallformCategory.cs" />
+    <Compile Remove="Migrations\20210819001202_CallformCategory.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.15" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VolksCalls.Domain\VolksCalls.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

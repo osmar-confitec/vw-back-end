@@ -1,0 +1,8 @@
+ 
+ SET SQL_SAFE_UPDATES=0;
+ update 
+  volks.TblCallsCategory set CIId = 
+	(select  id  from  volks.ci 
+	where volks.ci.CIName =  REPLACE(volks.TblCallsCategory.description ,'#','') limit 0,1 )
+	where volks.TblCallsCategory.Level in(5);
+    commit;

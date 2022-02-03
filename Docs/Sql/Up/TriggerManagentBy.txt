@@ -1,0 +1,18 @@
+use volks;
+DELIMITER $$
+
+CREATE TRIGGER managedby_incId 
+BEFORE INSERT 
+ON volks.managedby FOR EACH ROW
+  BEGIN
+		IF (new.id is null)
+        THEN 
+			SET new.id := (SELECT UUID());
+        END IF;
+        
+        IF (new.UserInsertedId is null)
+        THEN
+			SET new.UserInsertedId := (SELECT UUID());
+        END if;
+  END $$
+  DELIMITER ;

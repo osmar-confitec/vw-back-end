@@ -1,0 +1,4 @@
+ 
+ SET SQL_SAFE_UPDATES=0;
+    update volks.ci set DefaultCI  = 1 where ciid = 'CI00632070';
+        commit;
